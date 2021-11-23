@@ -1,0 +1,81 @@
+/*Our CSS file for Project for Project 4*/
+
+
+/*Responsive viewport declaration*/
+@-ms-viewport {width:device-width;} 
+
+@viewport {width:device-width;}
+/*Put this in for future compatibility*/
+
+body {
+	color: lightblue;
+	background:lightblue;
+	background-repeat: no-repeat;
+	background-size: contain, 65vh;
+	background-position: center;
+	background-attachment: fixed;
+	background-image: 
+		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+		url('Images/Hafutone.jpg');
+}
+
+h6 {
+	line-height: 3.0;
+}
+
+.carousel {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: auto;
+	width:60vh;
+	overflow-y: hidden;
+	opacity: 0.55;
+	margin-bottom: 20px;
+}
+
+.container {
+	margin-top: 75px;
+
+}
+
+#blocktext {
+
+	/*display:block;*/
+	/*margin-right: auto;
+	margin-left: auto;*/
+	/*position:relative;*/
+	text-align: center;
+/*	height:10em;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*margin: 0;*/
+}
+
+#hero {
+	margin-top: 50px;
+	margin-bottom: -65px;
+	background: rgba(255, 255, 255, 0.5);
+	padding-top:1px;
+	padding-bottom:50px;
+	/*background-color: peachpuff;*/
+}
+
+#button{
+	margin-top: 10px;
+}
+
+#content {
+	background: rgba(255, 255, 255, 0.5);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#content2 {
+	margin-top: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
